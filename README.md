@@ -2,19 +2,19 @@
 
 ✨ `goss` 是一个简洁的云存储 golang 库，兼容 amazon s3 协议，支持但不限于**阿里云**、**腾讯云**、**七牛云**、**华为云**、**aws s3**、**minio**。
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/eleven26/goss/v4.svg)](https://pkg.go.dev/github.com/eleven26/goss/v4)
-[![Go Report Card](https://goreportcard.com/badge/github.com/eleven26/goss/v4)](https://goreportcard.com/report/github.com/eleven26/goss/v4)
-[![Go](https://github.com/eleven26/goss/actions/workflows/go.yml/badge.svg)](https://github.com/eleven26/goss/actions/workflows/go.yml)
-[![codecov](https://codecov.io/gh/eleven26/goss/branch/main/graph/badge.svg?token=UU4lLD2n4k)](https://codecov.io/gh/eleven26/goss)
-[![GitHub license](https://img.shields.io/github/license/eleven26/goss)](https://github.com/eleven26/goss/blob/main/LICENSE)
-![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/eleven26/goss)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/eleven26/goss)
+[![Go Reference](https://pkg.go.dev/badge/github.com/huagelong/goss.svg)](https://pkg.go.dev/github.com/huagelong/goss)
+[![Go Report Card](https://goreportcard.com/badge/github.com/huagelong/goss)](https://goreportcard.com/report/github.com/huagelong/goss)
+[![Go](https://github.com/huagelong/goss/actions/workflows/go.yml/badge.svg)](https://github.com/huagelong/goss/actions/workflows/go.yml)
+[![codecov](https://codecov.io/gh/huagelong/goss/branch/main/graph/badge.svg?token=UU4lLD2n4k)](https://codecov.io/gh/huagelong/goss)
+[![GitHub license](https://img.shields.io/github/license/huagelong/goss)](https://github.com/huagelong/goss/blob/main/LICENSE)
+![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/huagelong/goss)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/huagelong/goss)
 
 
 ## 🚀 安装
 
 ```shell
-go get -u github.com/eleven26/goss/v4
+go get -u github.com/huagelong/goss
 ```
 
 
@@ -55,7 +55,7 @@ goss, err := goss.New(goss.WithConfig(&goss.Config{
 1. 你可以通过下面的代码来导入 `goss`:
 
 ```go
-import "github.com/eleven26/goss/v4"
+import "github.com/huagelong/goss"
 ```
 
 2. 使用之前需要创建实例：
